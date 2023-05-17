@@ -1,8 +1,13 @@
 <template>
-  <div>
-    <el-button type="primary">Primary</el-button>
-  </div>
+  <!-- 一级路由出口 -->
+  <RouterView />
 </template>
 
 <script setup>
 </script>
+
+<style>
+* {
+  text-align: center;
+}
+</style>
